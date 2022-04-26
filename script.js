@@ -1,6 +1,12 @@
-alert('Hello!');
-let userName = prompt('What is your name?');
-alert('Nice to meet you, ' + userName + '!');
-let userAge = prompt('How old are you, ' + userName + '?');
-let birthYear = 2021 - userAge;
-alert('You were born in: ' + birthYear);
+let firstNumber = prompt('Enter first number');
+let secondNumber = prompt('Enter second number');
+let sum = Number(firstNumber) + Number(secondNumber);
+let diff = firstNumber - secondNumber;
+let mult = firstNumber * secondNumber;
+let div = firstNumber / secondNumber;
+console.log('Calculations are finished!');
+console.log('Sum: ' + firstNumber + ' + ' + secondNumber + ' = ' + sum );
+console.log('Diff: ' + firstNumber + ' - ' + secondNumber + ' = ' + diff );
+console.log('Mult: ' + firstNumber + ' * ' + secondNumber + ' = ' + mult );
+console.log('Div: ' + firstNumber + ' / ' + secondNumber + ' = ' + div );
+
